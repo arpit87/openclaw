@@ -90,14 +90,18 @@ USER.md
 
 # Agent credentials and memory (NEVER COMMIT)
 /memory/
-.agent/*.json
-!.agent/workflows/
+.agent/
+.agents/
+.claude/
+.vscode/
+.history/
+.pi/
+arpit-info/
+*.local
+.env.local
+!*.example
 /local/
 package-lock.json
-.claude/settings.local.json
-.agents/
-.agents
-.agent/
 
 # Local iOS signing overrides
 apps/ios/LocalSigning.xcconfig
